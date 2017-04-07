@@ -13,6 +13,7 @@
 		705F07B61E97CF0B00616DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705F07B41E97CF0B00616DB1 /* Main.storyboard */; };
 		705F07B81E97CF0B00616DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705F07B71E97CF0B00616DB1 /* Assets.xcassets */; };
 		705F07BB1E97CF0B00616DB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705F07B91E97CF0B00616DB1 /* LaunchScreen.storyboard */; };
+		705F07C91E97D10B00616DB1 /* LTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 705F07C81E97D10B00616DB1 /* LTPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		705F07B71E97CF0B00616DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		705F07BA1E97CF0B00616DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		705F07BC1E97CF0B00616DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705F07C71E97D10B00616DB1 /* LTPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPerson.h; sourceTree = "<group>"; };
+		705F07C81E97D10B00616DB1 /* LTPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		705F07AA1E97CF0B00616DB1 /* LTTestOneXXX */ = {
 			isa = PBXGroup;
 			children = (
+				705F07C61E97D10B00616DB1 /* Classes */,
 				705F07AE1E97CF0B00616DB1 /* AppDelegate.h */,
 				705F07AF1E97CF0B00616DB1 /* AppDelegate.m */,
 				705F07B11E97CF0B00616DB1 /* ViewController.h */,
@@ -78,6 +82,15 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		705F07C61E97D10B00616DB1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				705F07C71E97D10B00616DB1 /* LTPerson.h */,
+				705F07C81E97D10B00616DB1 /* LTPerson.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				705F07C91E97D10B00616DB1 /* LTPerson.m in Sources */,
 				705F07B31E97CF0B00616DB1 /* ViewController.m in Sources */,
 				705F07B01E97CF0B00616DB1 /* AppDelegate.m in Sources */,
 				705F07AD1E97CF0B00616DB1 /* main.m in Sources */,
@@ -309,6 +323,7 @@
 				705F07C11E97CF0B00616DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
